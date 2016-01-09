@@ -1,4 +1,4 @@
-FROM qnib/cluster:cos7
+FROM qnib/cluster
 
 # Install dependencies
 RUN yum install -y openmpi libmlx4 infiniband-diags gsl bc
